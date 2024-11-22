@@ -7,5 +7,7 @@
         public int? Age { get; set; }
         public string? Address { get; set; }
         public string? Ethnicity { get; set; }
+
+        public DateTime? DateOfBirth { get; set; }
     }
 }

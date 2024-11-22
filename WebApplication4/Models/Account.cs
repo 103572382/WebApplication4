@@ -20,4 +20,6 @@ public class Account
     public string Otp { get; set; }
 
     public DateTime? OtpExpiry { get; set; }
+    public DateTime DateOfBirth { get; internal set; }
+    public int Age { get; internal set; }
 }
